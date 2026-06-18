@@ -62,9 +62,7 @@ The system uses the following tables:
 
 youtube video 
 
-https://youtu.be/jU7qHVg-VGY
-
-https://youtu.be/dbq6lIrRR4g
+https://youtu.be/2-PDcbWXfvE
 
  Project Structure
 
