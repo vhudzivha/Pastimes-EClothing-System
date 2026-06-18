@@ -60,7 +60,8 @@ The system uses the following tables:
 4. tbldelivery
    - Stores customer delivery details
 
-
+youtube video 
+https://youtu.be/jU7qHVg-VGY
 
  Project Structure
 
