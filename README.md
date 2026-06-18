@@ -1,53 +1,104 @@
- Pastimes E-Clothing Web Application
+ Pastimes E-Clothing System
 
- Description
-This project is a web-based clothing system developed using PHP and MySQL. It allows users to register, log in, and access the system after admin approval.
+ Project Overview
 
- Technologies Used
-- PHP
-- MySQL
-- HTML
-- Bootstrap
-- XAMPP
+Pastimes E-Clothing System is a web-based online clothing store developed using PHP, MySQL, HTML, CSS, and Bootstrap. The system allows customers to register, log in, browse clothing products, add products to a shopping cart, place orders, and contact the seller.
 
- How to Run the Project
+This project was developed as part of the Web Development Part 3 assessment.
 
-1. Start XAMPP (Apache and MySQL)
-2. Open browser:
-   http://localhost/Pastimes/
-3. Create database:
-   - Go to phpMyAdmin
-   - Create database: ClothingStore
-4. Run:
-   http://localhost/Pastimes/createTable.php
+
 
  Features
-- User registration
-- Input validation
-- Admin approval system
-- Login authentication
-- Session management
-- Logout
 
- Admin Login
-Password: admin123
+ Customer Features
 
-Project Structure
+- User Registration
+- User Login and Logout
+- Browse Products
+- Add Products to Cart
+- Update Cart Quantity
+- Remove Items from Cart
+- Checkout System
+- View Orders
+- Contact Seller
+
+ Admin Features
+
+- Admin Login
+- View Registered Users
+- View Orders
+- Manage Products
+
+
+
+ Technologies Used
+
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- XAMPP
+- phpMyAdmin
+
+
+
+ Database Tables
+
+The system uses the following tables:
+
+1. tbluser
+   - Stores user information
+
+2. tblproducts
+   - Stores clothing products
+
+3. tblorders
+   - Stores placed orders
+
+4. tbldelivery
+   - Stores customer delivery details
+
+
+
+ Project Structure
+
+text
 Pastimes/
-- DBConn.php
-- createTable.php
-- loadData.php
-- login.php
-- register.php
-- admin.php
-- home.php
-- logout.php
-- index.php
-- display.php
-- users.txt
-
- Demo Video
-https://youtu.be/dbq6lIrRR4g
-
- Student Details
-Name: Madoba Sunnyboy  & Dipuo Mokwena 
+│
+├── index.php
+├── login.php
+├── register.php
+├── logout.php
+├── shop.php
+├── cart.php
+├── checkout.php
+├── orders.php
+├── contact.php
+├── admin.php
+├── DBConn.php
+├── createTable.php
+├── README.md
+│
+└── images/
+    ├── cap1.jpg
+    ├── cargo1.jpg
+    ├── coat1.jpg
+    ├── hoodie1.jpg
+    ├── hoodie2.jpg
+    ├── hoodie3.jpg
+    ├── jacket2.jpg
+    ├── jacket3.jpg
+    ├── jeans1.jpg
+    ├── jeans2.jpg
+    ├── jeans3.jpg
+    ├── nike1.jpg
+    ├── sneakers2.jpg
+    ├── sneakers3.jpg
+    ├── polo1.jpg
+    ├── shirt1.jpg
+    ├── shirt2.jpg
+    ├── shirt3.jpg
+    ├── sweat1.jpg
+    └── dress1.jpg
