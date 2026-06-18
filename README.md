@@ -61,7 +61,10 @@ The system uses the following tables:
    - Stores customer delivery details
 
 youtube video 
+
 https://youtu.be/jU7qHVg-VGY
+
+https://youtu.be/dbq6lIrRR4g
 
  Project Structure
 
